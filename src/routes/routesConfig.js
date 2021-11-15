@@ -5,6 +5,7 @@ import NotFoundPage from '../containers/NotFoundPage'
 import FavoritePage from '../containers/FavoritePage'
 import PlanetsPage from '../containers/PlanetsPage'
 import PlanetPage from '../containers/PlanetPage'
+import SearchPage from '../containers/SearchPage'
 
 const routesConfig = [
   {
@@ -31,6 +32,11 @@ const routesConfig = [
     path: '/favorites',
     exact: true,
     component: FavoritePage,
+  },
+  {
+    path: '/search',
+    exact: true,
+    component: SearchPage,
   },
   {
     path: '/not-found',
