@@ -7,12 +7,18 @@ export const SWAPI_PEOPLE = 'people'
 export const SWAPI_PLANET = 'planets'
 
 export const SWAPI_PARAM_PAGE = '/?page='
+export const SWAPI_PARAM_SEARCH = '/?search='
 
 export const API_PEOPLE = HTTPS + BASE_URL + SWAPI_PEOPLE + SWAPI_PARAM_PAGE
 export const API_PLANETS = HTTPS + BASE_URL + SWAPI_PLANET + SWAPI_PARAM_PAGE
 
 export const API_PERSON = HTTPS + BASE_URL + SWAPI_PEOPLE
+export const API_SEARCH_PERSON =
+  HTTPS + BASE_URL + SWAPI_PEOPLE + SWAPI_PARAM_SEARCH
+
 export const API_PLANET = HTTPS + BASE_URL + SWAPI_PLANET
+export const API_SEARCH_PLANET =
+  HTTPS + BASE_URL + SWAPI_PLANET + SWAPI_PARAM_SEARCH
 
 // visual guide
 export const GUIDE_BASE_IMG = 'https://starwars-visualguide.com/assets/img/'
